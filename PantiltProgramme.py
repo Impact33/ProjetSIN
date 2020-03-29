@@ -16,20 +16,20 @@ fenetre1 = Tk()
 fenetre2 = Tk()
 
 # personnalisation fenetres
-fenetre1.geometry("50x200")
-fenetre1.minsize(50, 200)
-fenetre1.maxsize(50, 200)
+fenetre1.geometry("80x200")
+fenetre1.minsize(5, 5)
+fenetre1.maxsize(500, 500)
 fenetre1.config(background='#41B77F')
 fenetre2.title("    ")
-fenetre2.geometry("200x50")
-fenetre2.minsize(200, 50)
-fenetre2.maxsize(200, 50)
+fenetre2.geometry("230x50")
+fenetre2.minsize(2, 5)
+fenetre2.maxsize(2000, 500)
 fenetre2.config(background='#41B77F')
 
 #Ajout du slide
-scale1 = Scale(fenetre1, from_=-90, to=90, orient=VERTICAL, command = Position_TILT, length=200, width=25)
+scale1 = Scale(fenetre1, from_=-90, to=90, orient=VERTICAL, command = Position_TILT, length=200, width=55)
 scale1.place(x=0, y=0)
-scale2 = Scale(fenetre2, from_=-90, to=90, orient=HORIZONTAL, command = Position_PAN, length=200, width=25)
+scale2 = Scale(fenetre2, from_=-90, to=90, orient=HORIZONTAL, command = Position_PAN, length=230, width=25)
 scale2.place(x=0, y=0)
 
 
