@@ -17,13 +17,13 @@ fenetre2 = Tk()
 
 # personnalisation fenetres
 fenetre1.geometry("80x200")
-fenetre1.minsize(5, 5)
-fenetre1.maxsize(500, 500)
+fenetre1.minsize(80, 200)
+fenetre1.maxsize(80, 200)
 fenetre1.config(background='#41B77F')
 fenetre2.title("    ")
 fenetre2.geometry("230x50")
-fenetre2.minsize(2, 5)
-fenetre2.maxsize(2000, 500)
+fenetre2.minsize(230, 50)
+fenetre2.maxsize(230, 50)
 fenetre2.config(background='#41B77F')
 
 #Ajout du slide
