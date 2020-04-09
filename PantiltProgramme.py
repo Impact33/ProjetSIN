@@ -1,18 +1,22 @@
 from tkinter import *
 import pantilthat
 
+
 pantilthat.idle_timeout(0.5)
+
 
 # definir les angles
 def Position_TILT(valeur_tilt):
-	angle = int(valeur_tilt) / 2
+	angle = int(valeur_tilt) 
 	pantilthat.tilt(angle)	
 def Position_PAN(valeur_pan):
-	angle = int(valeur_pan) / 2
+	angle = int(valeur_pan) 
 	pantilthat.pan(angle)
+	
 	
 # creation fenetre
 fenetre = Tk()
+
 
 # personnalisation fenetres
 fenetre.geometry("700x400")
